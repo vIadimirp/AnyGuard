@@ -7,6 +7,7 @@ import TestServersSection from './components/testServersSection/testServersSecti
 import './App.css';
 
 
+// App component
 export default function App() {
 
     return (<>
