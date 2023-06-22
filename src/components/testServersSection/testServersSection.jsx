@@ -3,6 +3,7 @@ import "./testServersSection.css";
 
 export default function TestServersSection() {
 
+    // Added test servers section
     return (
         <div className="testServersSection">
             <div className="heading">
