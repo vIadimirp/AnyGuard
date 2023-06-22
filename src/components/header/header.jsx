@@ -7,6 +7,7 @@ import "./header.css";
 
 export default function Header() {
 
+    // Added header
     return (
         <div className="header">
             <div className="header-left">
