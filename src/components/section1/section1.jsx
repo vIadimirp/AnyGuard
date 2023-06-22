@@ -5,6 +5,7 @@ import "./section1.css";
 
 export default function Section1() {
 
+    // Add banner
     return (
         <div className="section1">
             <div className="text-block">
