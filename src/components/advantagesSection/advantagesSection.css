@@ -1,0 +1,37 @@
+div.advantagesSection {
+    display: flex;
+    background-color: #8950fc10;
+    padding: 3.5em 0;
+    border-radius: .5em;
+    width: 100%;
+    margin-top: 13.5em;
+    justify-content: center;
+}
+
+div.advantage {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    width: 34%;
+    justify-content: center;
+}
+
+div.advantage__emoji {
+    font-size: 1.5em;
+}
+
+div.advantage__text div.bold {
+    font-weight: 800;
+    font-size: 1.25em;
+}
+
+div.advantage__text div.not-bold {
+    font-weight: 400;
+}
+
+div.split {
+    height: 6.5em;
+    width: 2px;
+    background-color: #eeeff2;
+    border-radius: 100px;
+}

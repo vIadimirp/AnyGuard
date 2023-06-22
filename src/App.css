@@ -1,0 +1,8 @@
+div.container {
+    width: 80%;
+    padding-top: 2.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
