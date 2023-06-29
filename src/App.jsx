@@ -3,6 +3,7 @@ import Section1 from './components/section1/section1';
 import AdvantagesSection from './components/advantagesSection/advantagesSection';
 import RatesSection from './components/ratesSection/ratesSection';
 import TestServersSection from './components/testServersSection/testServersSection';
+import AutoInstallSection from './components/autoinstallSection/autoInstallSection';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ export default function App() {
             <AdvantagesSection />
             <RatesSection />
             <TestServersSection />
+            <AutoInstallSection />
         </div>
     </>);
 

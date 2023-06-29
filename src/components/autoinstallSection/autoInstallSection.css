@@ -1,0 +1,62 @@
+div.autoInstallSection {
+    margin-bottom: 200px; /* Temporary */
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    margin-top: 11em;
+    width: 100%;
+}
+
+span.bold {
+    font-weight: 600;
+}
+
+div.autoInstallSection div.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+div.autoInstallSection div.heading div.title {
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: 2;
+}
+
+div.autoInstallSection div.heading div.text {
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 2;
+}
+
+div.autoInstallSection div.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.autoInstallSection div.card {
+    background-color: #8950fc10;
+    padding: 2.25em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25em;
+    position: relative;
+}
+
+div.autoInstallSection div.card div.text {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+div.autoInstallSection div.card div.text div.heading {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+div.autoInstallSection a.create-btn {
+    display: block;
+    min-width: 100%;
+    border-radius: 0.67em;
+}
