@@ -3,7 +3,6 @@ div.testServersSection {
     flex-direction: column;
     gap: 4em;
     margin-top: 11em;
-    margin-bottom: 200px; /* Temporary */
     width: 100%;
 }
 

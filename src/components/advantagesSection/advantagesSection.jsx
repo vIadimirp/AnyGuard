@@ -3,7 +3,7 @@ import "./advantagesSection.css";
 
 export default function AdvantagesSection() {
     return (
-        <section className="advantagesSection">
+        <div className="advantagesSection">
             <div className="advantage">
                 <div className="advantage__emoji">🤩</div>
                 <div className="advantage__text">
@@ -27,6 +27,6 @@ export default function AdvantagesSection() {
                     <div className="not-bold">тех. поддержка</div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
