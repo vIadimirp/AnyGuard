@@ -1,0 +1,55 @@
+div.testServersSectionCard {
+    background-color: #8950fc10;
+    padding: 2.25em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75em;
+    position: relative;
+}
+
+div.testServersSectionCard.lowestPing::before {
+    content: '👍 Самый низкий пинг';
+    position: absolute;
+    top: 0;
+    font-size: 0.75em;
+    padding: 0.33em 2.67em;
+    background-color: #fccc50;
+    border-radius: 0.67em;
+    font-weight: 600;
+    line-height: 2;
+    transform: translateY(-50%);
+    box-shadow: 0 1.25em 4em #fccc50;
+}
+
+div.testServersSectionCard div.header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    z-index: inherit;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.testServersSectionCard div.header div.title {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+div.testServersSectionCard div.header div.copy-text {
+    font-size: 0.6em;
+    font-weight: 600;
+    color: #0008;
+}
+
+div.testServersSectionCard ul.list {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+div.testServersSectionCard ul.list li {
+    cursor: pointer;
+}

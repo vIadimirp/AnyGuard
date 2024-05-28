@@ -1,0 +1,27 @@
+div.socialNetworksSection {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    width: 100%;
+    margin-top: 11em;
+}
+
+div.socialNetworksSection div.heading {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+}
+
+div.socialNetworksSection div.heading div.title {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+div.socialNetworksSection div.content {
+    width: 100%;
+    height: 25.75em;
+    border-radius: 0.5em;
+    background: rgba(137, 80, 252, 0.08);
+}

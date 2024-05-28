@@ -1,0 +1,40 @@
+div.ratesSection {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    width: 100%;
+    margin-top: 11em;
+}
+
+div.ratesSection div.heading div.title {
+    font-weight: 800;
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+div.ratesSection div.heading div.text {
+    font-weight: 500;
+    font-size: .8em;
+    line-height: 2;
+}
+
+div.ratesSection div.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.ratesSection ul.abilities {
+    font-size: 0.75em;
+    font-weight: 400;
+}
+
+div.ratesSection ul.abilities li {
+    line-height: 2;
+}
+
+div.ratesSection a.create-btn {
+    display: block;
+    min-width: 100%;
+    border-radius: 0.67em;
+}

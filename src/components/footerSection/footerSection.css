@@ -1,0 +1,75 @@
+div.footerSection {
+    margin-top: 11em;
+    width: 100%;
+    padding: 3.5em 0;
+    background-color: #000;
+    position: relative;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+div.footerSection::before,
+div.footerSection::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    width: calc(50vw - 50%);
+    height: 100%;
+    background-color: #000;
+}
+div.footerSection::before {
+    left: 0;
+    transform: translateX(-100%);
+}
+
+div.footerSection::after {
+    right: 0;
+    transform: translateX(100%);
+}
+
+
+div.footerSection div.copyright,
+div.footerSection div.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+div.footerSection div.copyright img.logo {
+    height: 2.25em;
+    width: 9em;
+}
+
+div.footerSection div.copyright div.description,
+div.footerSection div.copyright div.copyrightText {
+    font-size: 0.75em;
+}
+
+div.footerSection div.copyright div.copyrightText {
+    font-weight: 300;
+}
+
+
+div.footerSection div.contacts div.title {
+    font-weight: 700;
+    font-size: 0.85em;
+}
+
+div.footerSection div.contacts div.description,
+div.footerSection div.contacts div.mail {
+    font-size: 0.8em;
+}
+
+
+div.socialNetworks {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    gap: 1.75em;
+}
+
+div.socialNetworks img {
+    width: 1.75em;
+    height: 1.75em;
+    cursor: pointer;
+}

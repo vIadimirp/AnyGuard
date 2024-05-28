@@ -1,0 +1,28 @@
+div.advantagesSection {
+    display: flex;
+    background-color: #8950fc10;
+    padding: 3.5em 0;
+    border-radius: .5em;
+    width: 100%;
+    margin-top: 13.5em;
+    justify-content: center;
+}
+
+
+@media (max-width: 1075px) {
+
+    div.advantagesSection {
+        font-size: 0.75em;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    div.advantagesSection {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+}
